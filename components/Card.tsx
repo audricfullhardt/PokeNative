@@ -10,7 +10,6 @@ export function Card ({style, ...rest}: Props){
 }
 
 const styles = {
-    backgroundColor: "#FFF",
     borderRadius: 8,
     ...Shadows.dp2
 } satisfies ViewStyle;
